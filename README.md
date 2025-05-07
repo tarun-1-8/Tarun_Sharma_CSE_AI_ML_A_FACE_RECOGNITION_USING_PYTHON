@@ -28,7 +28,7 @@ A Python-based face recognition attendance system using webcam, face encodings, 
 
 ### ✅ 1. Clone the Repository
 ```bash
-https://github.com/tarun-1-8/Tarun_Sharma_CSE_AI_ML_A_FACE_RECOGNITION_USING_PYTHON/edit/main
+https://github.com/tarun-1-8/Tarun_Sharma_CSE_AI_ML_A_FACE_RECOGNITION_USING_PYTHON/tree/main
 ```
 
 ### 📦 2. Install Dependencies
