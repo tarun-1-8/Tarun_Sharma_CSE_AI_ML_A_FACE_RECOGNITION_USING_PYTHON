@@ -10,6 +10,7 @@ A Python-based face recognition attendance system using webcam, face encodings, 
 - GUI-based control using Tkinter
 
 ---
+## [project video link](https://drive.google.com/file/d/1lEp5XYCptDF3zh53ko_AQIOiF8lQBv73/view?usp=sharing)
 
 ## 🛠️ Technologies Used
 
