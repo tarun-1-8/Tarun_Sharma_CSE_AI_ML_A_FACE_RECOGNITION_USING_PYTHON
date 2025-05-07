@@ -1,83 +1,98 @@
-# FACE_RECOGNITION_USING_PYTHON
-## TEAM MEMBERS
-### TARUN SHARMA(TEAM LEADER) 2401730104
-### SWASTIK SHARMA 2401730032
-### GOURAV 2401730019
-## PROJECT DESCRIPTION
-This project explains a face recognition system developed using Python. It highlights objectives, methodology, real-time implementation, and applications in security, attendance, and smart devices. The project uses libraries like OpenCV and dlib to ensure accurate facial detection. Challenges like lighting and angles are also addressed, enhancing overall system reliability.
+# Face Recognition Attendance System 🎥🧑‍💼
 
-## Video Explaination
-[video](https://example.com)
+A Python-based face recognition attendance system using webcam, face encodings, and a graphical interface.
 
-## Technologies used
-### Python – Core language used for all scripts.
-### face_recognition
+## 📌 Features
+- Load celebrity images as dataset
+- Encode faces and store for future recognition
+- Real-time face recognition using webcam
+- Automatically mark attendance with timestamp
+- GUI-based control using Tkinter
 
-### For detecting and recognizing faces in images and real-time video.
+---
 
-### OpenCV (opencv-python)
+## 🛠️ Technologies Used
 
-### Used for video capture from the webcam, image processing, and GUI display (like bounding boxes).
+- **Python**
+- **face_recognition** – Face detection and recognition
+- **OpenCV (cv2)** – Webcam and image processing
+- **Tkinter** – GUI development
+- **pickle** – Save/load face encodings
+- **urllib.request** – Download images from URLs
+- **CSV** – Log attendance
+- **subprocess, os, datetime** – Python standard libraries
 
-### tkinter
+---
 
-### For building the graphical user interface (GUI) of the main application (main_app.py).
+## 🧑‍💻 Setup Instructions
 
-### pickle
+### ✅ 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/face-recognition-attendance.git
+cd face-recognition-attendance
+```
 
-### To save and load serialized data (face encodings and names).
+### 📦 2. Install Dependencies
+Ensure Python is installed, then run:
+```bash
+pip install -r requirements.txt
+```
 
-### urllib.request
+If you face issues with `tkinter`, install it using your OS package manager (e.g., `sudo apt install python3-tk` for Ubuntu).
 
-### To download images from the internet (in create_dataset.py).
+---
 
-### os and datetime (Standard Python Libraries)
+## 🚀 How to Run
 
-### File and folder operations, getting current date/time.
+### ▶️ Step 1: Start the GUI
+```bash
+python main_app.py
+```
 
-### subprocess
+### 🖼️ Step 2: Load Dataset
+- Click **“Load Dataset”**
+- Downloads celebrity images into `dataset/` folder.
 
-### To call Python scripts from within the GUI app.
+### 🧠 Step 3: Encode Faces
+- Click **“Encode Faces”**
+- Extracts and stores facial features into `encodings.pkl`.
 
-## HOW TO RUN THE CODE?
-### step1-
-#### IN CMD
-##  pip install -r requirements.txt
-### python main_app.py
-### step2-
-### Load the dataset
-### Click on “Load Dataset”.
+### 🎥 Step 4: Start Attendance
+- Click **“Start Attendance”**
+- Opens webcam, identifies known faces, and logs attendance in `attendance.csv`.
+- Press **‘q’** to quit webcam window.
 
-### This will:
+### ❌ Step 5: Exit
+- Click **“Exit”** to close the GUI.
 
-### Download sample celebrity images (Elon Musk, Emma Watson, Tom Holland) into the dataset/ folder.
-### step3-
-### encod faces
-### Click on “Encode Faces”.
+---
 
-### This will:
+## 📁 Output Files
 
-### Extract face encodings from the images.
+| File / Folder        | Description                             |
+|----------------------|-----------------------------------------|
+| `dataset/`           | Stores downloaded face images           |
+| `encodings.pkl`      | Pickled face encodings and names        |
+| `attendance.csv`     | CSV log of attendance with date & time  |
 
-### Save them into encodings.pkl for later use in recognition.
-### step4-
-### Start attendance
-### Click on “Start Attendance”.
+---
 
-### This will:
+## 📸 Dataset
+This app uses images of:
+- Elon Musk
+- Emma Watson
+- Tom Holland
 
-### Open your webcam.
+You can add more images manually in the `dataset/` folder using the format: `name_0.jpg`, `name_1.jpg`, etc.
 
-### Detect and recognize faces in real-time.
+---
 
-### Mark attendance in attendance.csv (only once per person).
+## 📝 License
+This project is for educational purposes.
 
-### Press ‘q’ on the keyboard to exit.
-### step5-
-### for exiting 
-### Click “Exit” to close the application.
+---
 
-
-
-
-
+## 🙌 Authors
+- Tarun Sharma (2401730104)  
+- Swastik Sharma (2401730032)  
+- Gaurav (2401730019)
