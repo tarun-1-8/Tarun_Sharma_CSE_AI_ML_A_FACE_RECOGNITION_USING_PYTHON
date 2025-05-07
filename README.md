@@ -39,5 +39,45 @@ This project explains a face recognition system developed using Python. It highl
 
 ### To call Python scripts from within the GUI app.
 
+## HOW TO RUN THE CODE?
+## step1-
+## IN CMD
+##  pip install -r requirements.txt
+## python main_app.py
+## step2-
+## Load the dataset
+## Click on “Load Dataset”.
+
+## This will:
+
+## Download sample celebrity images (Elon Musk, Emma Watson, Tom Holland) into the dataset/ folder.
+## step3-
+## encod faces
+## Click on “Encode Faces”.
+
+## This will:
+
+## Extract face encodings from the images.
+
+## Save them into encodings.pkl for later use in recognition.
+## step4-
+## Start attendance
+## Click on “Start Attendance”.
+
+## This will:
+
+## Open your webcam.
+
+## Detect and recognize faces in real-time.
+
+## Mark attendance in attendance.csv (only once per person).
+
+## Press ‘q’ on the keyboard to exit.
+## step5-
+## for exiting 
+## Click “Exit” to close the application.
+
+
+
 
 
