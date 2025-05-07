@@ -9,4 +9,35 @@ This project explains a face recognition system developed using Python. It highl
 ## Video Explaination
 [video](https://example.com)
 
+## Technologies used
+### Python – Core language used for all scripts.
+### face_recognition
+
+### For detecting and recognizing faces in images and real-time video.
+
+### OpenCV (opencv-python)
+
+### Used for video capture from the webcam, image processing, and GUI display (like bounding boxes).
+
+### tkinter
+
+### For building the graphical user interface (GUI) of the main application (main_app.py).
+
+### pickle
+
+### To save and load serialized data (face encodings and names).
+
+### urllib.request
+
+### To download images from the internet (in create_dataset.py).
+
+### os and datetime (Standard Python Libraries)
+
+### File and folder operations, getting current date/time.
+
+### subprocess
+
+### To call Python scripts from within the GUI app.
+
+
 
